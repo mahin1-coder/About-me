@@ -1,0 +1,9 @@
+- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+- [x] Clarify Project Requirements — static HTML/CSS/JS portfolio site.
+- [x] Scaffold the Project — created base files and folders.
+- [x] Customize the Project — added hero, about, skills, projects, contact sections.
+- [x] Install Required Extensions — none needed.
+- [x] Compile the Project — no build step required for static site.
+- [x] Create and Run Task — not required.
+- [ ] Launch the Project — waiting for user request.
+- [x] Ensure Documentation is Complete — README and this checklist updated.
