@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 
-export default function initialFX() {
+export function initialFX() {
   const tl = gsap.timeline();
 
   tl.fromTo(
@@ -28,3 +28,5 @@ export default function initialFX() {
       0.9
     );
 }
+
+export default initialFX;
