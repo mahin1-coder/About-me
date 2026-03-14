@@ -9,8 +9,6 @@ export let smoother: undefined;
 
 const Navbar = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
-
     const links = document.querySelectorAll(".header ul a");
 
     const onClick = (e: Event) => {
@@ -38,14 +36,14 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          M
+          MA
         </a>
         <a
-          href="mailto:your.email@example.com"
+          href="mailto:Mahin3.ahsan@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          your.email@example.com
+          Mahin3.ahsan@gmail.com
         </a>
         <ul>
           <li>

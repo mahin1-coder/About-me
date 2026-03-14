@@ -5,22 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Project One",
+    title: "ML Model Deployment Dashboard",
+    category: "AI / ML Systems",
+    tools: "Python, Scikit-Learn, FastAPI, React, Power BI",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
+  {
+    title: "LLM-Powered Workflow Automation",
+    category: "AI Automation",
+    tools: "Python, LangGraph, OpenAI API, FastAPI",
+    image: "/images/placeholder.webp",
+    link: "",
+  },
+  {
+    title: "Weather App",
     category: "Web Application",
-    tools: "React, TypeScript, Node.js",
+    tools: "JavaScript, REST API, Open-Meteo",
     image: "/images/placeholder.webp",
+    link: "https://mahin1-coder.github.io/Weather-App/",
   },
   {
-    title: "Project Two",
-    category: "Full Stack App",
-    tools: "Next.js, MongoDB, TailwindCSS",
+    title: "Valentine's Interactive Website",
+    category: "Creative UI",
+    tools: "HTML, CSS, JavaScript",
     image: "/images/placeholder.webp",
-  },
-  {
-    title: "Project Three",
-    category: "API Development",
-    tools: "Node.js, Express, PostgreSQL",
-    image: "/images/placeholder.webp",
+    link: "https://mahin1-coder.github.io/Valentines/",
   },
 ];
 
@@ -50,6 +60,12 @@ const Work = () => {
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
 
+  const handleProjectClick = (link: string) => {
+    if (link) {
+      window.open(link, "_blank");
+    }
+  };
+
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -58,7 +74,6 @@ const Work = () => {
         </h2>
 
         <div className="carousel-wrapper">
-          {/* Navigation Arrows */}
           <button
             className="carousel-arrow carousel-arrow-left"
             onClick={goToPrev}
@@ -76,7 +91,6 @@ const Work = () => {
             <MdArrowForward />
           </button>
 
-          {/* Slides */}
           <div className="carousel-track-container">
             <div
               className="carousel-track"
@@ -85,7 +99,12 @@ const Work = () => {
               }}
             >
               {projects.map((project, index) => (
-                <div className="carousel-slide" key={index}>
+                <div 
+                  className="carousel-slide" 
+                  key={index}
+                  onClick={() => handleProjectClick(project.link)}
+                  style={{ cursor: project.link ? "pointer" : "default" }}
+                >
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
@@ -100,6 +119,9 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.link && (
+                          <span className="project-live-link">View Live →</span>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
@@ -111,13 +133,11 @@ const Work = () => {
             </div>
           </div>
 
-          {/* Dot Indicators */}
           <div className="carousel-dots">
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""
-                  }`}
+                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""}`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
                 data-cursor="disable"
