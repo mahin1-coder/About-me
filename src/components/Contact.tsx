@@ -10,12 +10,12 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:your.email@example.com" data-cursor="disable">
-                your.email@example.com
+              <a href="mailto:Mahin3.ahsan@gmail.com" data-cursor="disable">
+                Mahin3.ahsan@gmail.com
               </a>
             </p>
             <h4>Education</h4>
-            <p>Computer Science Student</p>
+            <p>CS @ University of Minnesota – Twin Cities</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
@@ -27,26 +27,12 @@ const Contact = () => {
             >
               Github <MdArrowOutward />
             </a>
-            <a
-              href="https://linkedin.com/in/yourprofile"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://twitter.com/yourhandle"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
+            <h4>Location</h4>
+            <p>Minneapolis, MN</p>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Mahin</span>
+              Designed and Developed <br /> by <span>Mahin Ahsan</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

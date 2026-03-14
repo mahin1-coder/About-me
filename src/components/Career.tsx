@@ -15,42 +15,42 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Learning & Projects</h4>
-                <h5>Self-Taught Developer</h5>
+                <h4>Product Manufacturing Engineer Intern</h4>
+                <h5>Abbott Laboratories · Plymouth, MN</h5>
               </div>
-              <h3>2023</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Started learning web development. Built multiple projects using
-              HTML, CSS, JavaScript. Explored React and modern frontend
-              frameworks.
+              Applied Lean principles, conducted root cause analyses, and
+              collaborated with production and quality teams to improve
+              operational efficiency in a GMP-regulated environment.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Development</h4>
-                <h5>Personal Projects</h5>
+                <h4>IT Service Desk Assistant (Team Lead)</h4>
+                <h5>Normandale Community College</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2023–2025</h3>
             </div>
             <p>
-              Expanded into full-stack development with Node.js and databases.
-              Created several web applications and contributed to open source
-              projects.
+              Led campus IT support operations, resolved 70+ technical tickets
+              weekly. Maintained campus labs & infrastructure and improved
+              escalation processes.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Building & Growing</h4>
-                <h5>Current Focus</h5>
+                <h4>CS @ University of Minnesota</h4>
+                <h5>Twin Cities · CSE</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Continuing to learn new technologies and build impactful projects.
-              Open to opportunities and collaboration on interesting challenges.
+              Building production-ready ML deployments, LLM-powered automation
+              workflows, and cloud-native services with AWS.
             </p>
           </div>
         </div>

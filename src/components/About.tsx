@@ -6,10 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Passionate Developer building modern web applications and exploring
-          new technologies. I love creating clean, efficient, and user-friendly
-          solutions. Currently focused on full-stack development with React,
-          TypeScript, and Node.js. Always learning and growing as a developer.
+          I'm a Computer Science student at the University of Minnesota – Twin
+          Cities focused on AI systems, machine learning, and scalable
+          full-stack development. Previously completed my Associate of Science
+          in Computer Science at Normandale Community College (GPA 3.7, Phi
+          Theta Kappa Honor Society). I combine software engineering with AI to
+          design systems that solve real-world problems efficiently.
         </p>
       </div>
     </div>
