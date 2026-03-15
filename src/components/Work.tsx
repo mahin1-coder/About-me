@@ -60,12 +60,6 @@ const Work = () => {
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
 
-  const handleProjectClick = (link: string) => {
-    if (link) {
-      window.open(link, "_blank");
-    }
-  };
-
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -99,12 +93,7 @@ const Work = () => {
               }}
             >
               {projects.map((project, index) => (
-                <div 
-                  className="carousel-slide" 
-                  key={index}
-                  onClick={() => handleProjectClick(project.link)}
-                  style={{ cursor: project.link ? "pointer" : "default" }}
-                >
+                <div className="carousel-slide" key={index}>
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
@@ -112,20 +101,39 @@ const Work = () => {
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
-                        <p className="carousel-category">
-                          {project.category}
-                        </p>
+                        <p className="carousel-category">{project.category}</p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
-                        {project.link && (
-                          <span className="project-live-link">View Live →</span>
+                        {project.link ? (
+                          <a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="project-live-link"
+                            data-cursor="disable"
+                          >
+                            View Live →
+                          </a>
+                        ) : (
+                          <span className="project-no-link">In Development</span>
                         )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      {project.link ? (
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          data-cursor="disable"
+                        >
+                          <WorkImage image={project.image} alt={project.title} />
+                        </a>
+                      ) : (
+                        <WorkImage image={project.image} alt={project.title} />
+                      )}
                     </div>
                   </div>
                 </div>
