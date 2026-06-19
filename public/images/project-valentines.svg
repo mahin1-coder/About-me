@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Valentines interactive web project preview">
+  <rect width="960" height="600" rx="34" fill="#111827"/>
+  <rect x="60" y="56" width="840" height="488" rx="28" fill="#0b1220" stroke="#29425a"/>
+  <text x="96" y="116" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Valentines</text>
+  <text x="96" y="150" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Interactive front-end experience</text>
+  <path d="M480 418C330 320 252 250 276 180c20-58 92-70 138-22 48-48 120-36 138 22 24 70-52 140-72 238z" fill="#5eead4"/>
+  <path d="M480 418C630 320 708 250 684 180c-20-58-92-70-138-22-48-48-120-36-138 22-24 70 52 140 72 238z" fill="#38bdf8" opacity=".72"/>
+  <rect x="320" y="454" width="320" height="44" rx="22" fill="#0f1b2d" stroke="#5eead4"/>
+  <text x="372" y="483" fill="#eafffb" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">HTML | CSS | JavaScript</text>
+</svg>

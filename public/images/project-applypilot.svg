@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="ApplyPilot project preview">
+  <rect width="960" height="600" rx="34" fill="#08111f"/>
+  <rect x="58" y="54" width="844" height="492" rx="28" fill="#0e1828" stroke="#29425a"/>
+  <text x="92" y="112" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">ApplyPilot</text>
+  <text x="92" y="146" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Job search workflow automation</text>
+  <rect x="92" y="198" width="256" height="248" rx="20" fill="#111f2f" stroke="#2f4f63"/>
+  <rect x="384" y="198" width="442" height="248" rx="20" fill="#0b1422" stroke="#2f4f63"/>
+  <g fill="#5eead4">
+    <rect x="122" y="238" width="142" height="16" rx="8"/>
+    <rect x="122" y="282" width="180" height="16" rx="8" opacity=".65"/>
+    <rect x="122" y="326" width="118" height="16" rx="8" opacity=".5"/>
+    <rect x="122" y="370" width="160" height="16" rx="8" opacity=".35"/>
+  </g>
+  <g fill="none" stroke="#5eead4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M430 385h340"/>
+    <path d="M430 320h238"/>
+    <path d="M430 255h290"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="430" cy="255" r="13"/>
+    <circle cx="430" cy="320" r="13"/>
+    <circle cx="430" cy="385" r="13"/>
+  </g>
+  <text x="466" y="262" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Track application</text>
+  <text x="466" y="327" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Generate follow-up</text>
+  <text x="466" y="392" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Organize next step</text>
+</svg>

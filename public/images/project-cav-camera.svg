@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="CAV Camera project preview">
+  <rect width="960" height="600" rx="34" fill="#07111f"/>
+  <rect x="64" y="60" width="832" height="480" rx="28" fill="#0d1727" stroke="#29425a"/>
+  <text x="98" y="118" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">CAV Camera</text>
+  <text x="98" y="152" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Camera perception for autonomous systems</text>
+  <rect x="112" y="206" width="460" height="260" rx="22" fill="#111f2f" stroke="#31506a"/>
+  <path d="M150 420 278 306l88 74 82-94 86 134" fill="none" stroke="#5eead4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="164" y="250" width="128" height="82" rx="14" fill="none" stroke="#38bdf8" stroke-width="5"/>
+  <rect x="364" y="278" width="108" height="76" rx="14" fill="none" stroke="#5eead4" stroke-width="5"/>
+  <rect x="620" y="226" width="204" height="204" rx="36" fill="#0b1422" stroke="#31506a"/>
+  <circle cx="722" cy="328" r="64" fill="none" stroke="#5eead4" stroke-width="14"/>
+  <circle cx="722" cy="328" r="26" fill="#38bdf8"/>
+  <text x="628" y="470" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="16">Python | Vision | Sensor Data</text>
+</svg>

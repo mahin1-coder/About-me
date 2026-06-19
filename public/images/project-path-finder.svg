@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Path Finder project preview">
+  <rect width="960" height="600" rx="34" fill="#08111f"/>
+  <rect x="58" y="54" width="844" height="492" rx="28" fill="#0d1727" stroke="#29425a"/>
+  <text x="92" y="112" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Path Finder</text>
+  <text x="92" y="146" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Graph search and route planning practice</text>
+  <g stroke="#263f56" stroke-width="2">
+    <path d="M170 220h620M170 300h620M170 380h620M250 180v250M360 180v250M470 180v250M580 180v250M690 180v250"/>
+  </g>
+  <path d="M184 384C260 384 250 220 360 220s80 160 202 160 104-160 228-160" fill="none" stroke="#5eead4" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#38bdf8">
+    <circle cx="184" cy="384" r="22"/>
+    <circle cx="360" cy="220" r="22"/>
+    <circle cx="562" cy="380" r="22"/>
+    <circle cx="790" cy="220" r="22"/>
+  </g>
+  <text x="172" y="462" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="17">Python | Graph Algorithms | Search</text>
+</svg>

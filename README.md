@@ -20,10 +20,16 @@ Current focus areas:
 
 ## Featured Work
 
-- **NeuroForge AI** - Full-stack ML SaaS dashboard with automated model training, real-time inference, model analytics, JWT auth, Stripe billing, Docker, Kubernetes, and Terraform.
-- **Humanizer** - AI text SaaS app that rewrites AI-generated text across multiple styles using the OpenAI API, FastAPI, React, PostgreSQL, Stripe, and usage-based rate limiting.
-- **LLM Workflow Automation** - Stateful LangGraph pipeline for classifying support tickets, generating GPT-powered responses, and managing multi-turn context through JSON memory graphs.
-- **Weather Now** - Production weather app with radar overlays, 7-day forecasts, AQI data, server-side API proxy, and CI/CD deployment on Vercel.
+- **NeuroForge AI** - Full-stack ML SaaS dashboard with automated model training, real-time inference, model analytics, JWT auth, Stripe billing, Docker, Kubernetes, and Terraform. [Code](https://github.com/mahin1-coder/ML-model--dashboard)
+- **Humanizer** - AI text SaaS app that rewrites AI-generated text across multiple styles using the OpenAI API, FastAPI, React, PostgreSQL, Stripe, and usage-based rate limiting. [Code](https://github.com/mahin1-coder/Humanizer)
+- **LLM Workflow Automation / AI Job Bot** - Stateful LangGraph-style automation for support and career workflows with GPT-powered responses and structured context. [Code](https://github.com/mahin1-coder/Ai-job-bot)
+- **Weather Now** - Production weather app with radar overlays, 7-day forecasts, AQI data, server-side API proxy, and CI/CD deployment on Vercel. [Live](https://weather-app-mahin.vercel.app) | [Code](https://github.com/mahin1-coder/Weather-App)
+- **ApplyPilot** - TypeScript job-application workflow project for organizing and automating career-search tasks. [Code](https://github.com/mahin1-coder/applypilot)
+- **CAV Camera** - Python computer vision project connected to camera-based perception workflows for autonomous systems. [Code](https://github.com/mahin1-coder/CAV-camera)
+- **Path Finder** - Python graph/path-search project for algorithmic problem solving and route planning. [Code](https://github.com/mahin1-coder/path-finder)
+- **Text to World** - C# interactive systems project exploring text-driven world/environment generation. [Code](https://github.com/mahin1-coder/text-to-world-)
+- **Valentines** - Creative interactive web experience built with HTML, CSS, and JavaScript. [Live](https://mahin1-coder.github.io/Valentines/) | [Code](https://github.com/mahin1-coder/Valentines)
+- **Portfolio** - This React, TypeScript, GSAP, and Three.js portfolio for projects, resume, and recruiter contact links. [Live](https://mahin1-coder.github.io/About-me/) | [Code](https://github.com/mahin1-coder/About-me)
 
 ## Experience Highlights
 

@@ -11,7 +11,12 @@ const projects = [
       "Full-stack machine learning platform for automated training, real-time inference, model analytics, authentication, billing, and deployment workflows.",
     tools: "Python, FastAPI, PostgreSQL, React, Scikit-Learn, XGBoost, Docker",
     image: `${import.meta.env.BASE_URL}images/project-neuroforge.svg`,
-    link: "",
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/ML-model--dashboard",
+      },
+    ],
   },
   {
     title: "Humanizer",
@@ -20,7 +25,12 @@ const projects = [
       "SaaS app that rewrites AI-generated text across multiple styles with usage limits, JWT authentication, subscriptions, and a production web interface.",
     tools: "Python, FastAPI, React, OpenAI API, PostgreSQL, Stripe",
     image: `${import.meta.env.BASE_URL}images/project-humanizer.svg`,
-    link: "",
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/Humanizer",
+      },
+    ],
   },
   {
     title: "LLM Workflow Automation",
@@ -29,7 +39,12 @@ const projects = [
       "Stateful LangGraph pipeline that classifies support tickets, generates GPT-powered responses, and manages multi-turn context with structured memory.",
     tools: "Python, LangGraph, OpenAI API, FastAPI, JSON memory graphs",
     image: `${import.meta.env.BASE_URL}images/project-llm-workflow.svg`,
-    link: "",
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/Ai-job-bot",
+      },
+    ],
   },
   {
     title: "Weather Now",
@@ -38,7 +53,108 @@ const projects = [
       "Deployed weather app with radar overlays, 7-day forecasts, AQI data, server-side API proxying, and CI/CD release flow.",
     tools: "TypeScript, Next.js, React, Open-Meteo, Leaflet, Vercel",
     image: `${import.meta.env.BASE_URL}images/project-weather-now.svg`,
-    link: "https://weather-app-mahin.vercel.app",
+    links: [
+      {
+        label: "View Live",
+        href: "https://weather-app-mahin.vercel.app",
+      },
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/Weather-App",
+      },
+    ],
+  },
+  {
+    title: "ApplyPilot",
+    category: "Job Application Automation",
+    summary:
+      "TypeScript application for organizing and automating job-search workflows with a cleaner application tracking experience.",
+    tools: "TypeScript, React, workflow automation, career tools",
+    image: `${import.meta.env.BASE_URL}images/project-applypilot.svg`,
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/applypilot",
+      },
+    ],
+  },
+  {
+    title: "CAV Camera",
+    category: "Autonomous Systems Research",
+    summary:
+      "Computer vision research project connected to camera-based perception workflows for connected and autonomous vehicle systems.",
+    tools: "Python, computer vision, camera data, research tooling",
+    image: `${import.meta.env.BASE_URL}images/project-cav-camera.svg`,
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/CAV-camera",
+      },
+    ],
+  },
+  {
+    title: "Path Finder",
+    category: "Algorithms & Visualization",
+    summary:
+      "Python project for path-finding logic and algorithmic problem solving, built to practice graph traversal and route planning concepts.",
+    tools: "Python, graph algorithms, path search",
+    image: `${import.meta.env.BASE_URL}images/project-path-finder.svg`,
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/path-finder",
+      },
+    ],
+  },
+  {
+    title: "Text to World",
+    category: "Creative 3D / Simulation",
+    summary:
+      "C# project exploring text-driven world creation concepts and interactive environment generation.",
+    tools: "C#, interactive systems, simulation",
+    image: `${import.meta.env.BASE_URL}images/project-text-to-world.svg`,
+    links: [
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/text-to-world-",
+      },
+    ],
+  },
+  {
+    title: "Valentines",
+    category: "Interactive Web Experience",
+    summary:
+      "Creative browser experience built with HTML, CSS, and JavaScript, focused on playful interactions and polished front-end presentation.",
+    tools: "HTML, CSS, JavaScript, GitHub Pages",
+    image: `${import.meta.env.BASE_URL}images/project-valentines.svg`,
+    links: [
+      {
+        label: "View Live",
+        href: "https://mahin1-coder.github.io/Valentines/",
+      },
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/Valentines",
+      },
+    ],
+  },
+  {
+    title: "Portfolio",
+    category: "Personal Developer Site",
+    summary:
+      "Animated React and Three.js portfolio built to present projects, research, resume, and professional contact links for recruiters.",
+    tools: "React, TypeScript, Vite, GSAP, Three.js, GitHub Pages",
+    image: `${import.meta.env.BASE_URL}images/project-portfolio.svg`,
+    links: [
+      {
+        label: "View Live",
+        href: "https://mahin1-coder.github.io/About-me/",
+      },
+      {
+        label: "View Code",
+        href: "https://github.com/mahin1-coder/About-me",
+      },
+    ],
   },
 ];
 
@@ -105,7 +221,7 @@ const Work = () => {
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
-                        <h3>0{index + 1}</h3>
+                        <h3>{String(index + 1).padStart(2, "0")}</h3>
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
@@ -115,26 +231,27 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
-                        {project.link ? (
-                          <a
-                            href={project.link}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="project-live-link"
-                            data-cursor="disable"
-                          >
-                            View Live →
-                          </a>
-                        ) : (
-                          <span className="project-no-link">In Development</span>
-                        )}
+                        <div className="project-links">
+                          {project.links.map((link) => (
+                            <a
+                              href={link.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="project-live-link"
+                              data-cursor="disable"
+                              key={link.href}
+                            >
+                              {link.label} →
+                            </a>
+                          ))}
+                        </div>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
                       <WorkImage
                         image={project.image}
                         alt={`${project.title} project preview`}
-                        link={project.link || undefined}
+                        link={project.links[0]?.href}
                       />
                     </div>
                   </div>
@@ -149,7 +266,7 @@ const Work = () => {
                 key={index}
                 className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""}`}
                 onClick={() => goToSlide(index)}
-                aria-label={`Go to project ${index + 1}`}
+                aria-label={`Go to project ${String(index + 1).padStart(2, "0")}`}
                 data-cursor="disable"
               />
             ))}
