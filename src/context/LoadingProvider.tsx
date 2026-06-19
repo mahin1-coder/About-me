@@ -24,12 +24,7 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
     setIsLoading,
     setLoading,
   };
-  useEffect(() => {
-    const fallback = window.setTimeout(() => {
-      setLoading(100);
-    }, 1200);
-    return () => window.clearTimeout(fallback);
-  }, []);
+  useEffect(() => {}, [loading]);
 
   return (
     <LoadingContext.Provider value={value as LoadingType}>

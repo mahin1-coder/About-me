@@ -12,6 +12,12 @@ const setCharacter = (
   const dracoLoader = new DRACOLoader();
   dracoLoader.setDecoderPath(`${import.meta.env.BASE_URL}draco/`);
   loader.setDRACOLoader(dracoLoader);
+  const textureLoader = new THREE.TextureLoader();
+  const customHeadTexture = textureLoader.load(
+    `${import.meta.env.BASE_URL}images/mahin-head-texture.webp`
+  );
+  customHeadTexture.flipY = false;
+  customHeadTexture.colorSpace = THREE.SRGBColorSpace;
 
   const loadCharacter = () => {
     return new Promise<GLTF | null>(async (resolve, reject) => {
@@ -32,9 +38,14 @@ const setCharacter = (
               if (child.isMesh) {
                 const mesh = child as THREE.Mesh;
 
-                // Change clothing colors to match site theme
+                // Change clothing colors to match site theme and personalize the head texture.
                 if (mesh.material) {
-                  if (mesh.name === "BODY.SHIRT") { // The shirt mesh
+                  if (mesh.name === "Face.002") {
+                    const newMat = (mesh.material as THREE.Material).clone() as THREE.MeshStandardMaterial;
+                    newMat.map = customHeadTexture;
+                    newMat.needsUpdate = true;
+                    mesh.material = newMat;
+                  } else if (mesh.name === "BODY.SHIRT") { // The shirt mesh
                     const newMat = (mesh.material as THREE.Material).clone() as THREE.MeshStandardMaterial;
                     newMat.color = new THREE.Color("#8B4513");
                     mesh.material = newMat;

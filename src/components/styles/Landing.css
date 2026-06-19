@@ -168,42 +168,6 @@
   border-radius: 50%;
 }
 
-.character-portrait-model {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.character-portrait-frame {
-  position: relative;
-  z-index: 4;
-  width: min(58vh, 520px);
-  aspect-ratio: 3 / 4;
-  border-radius: 34px;
-  overflow: hidden;
-  border: 1px solid rgba(94, 234, 212, 0.26);
-  box-shadow:
-    0 30px 90px rgba(0, 0, 0, 0.45),
-    0 0 65px rgba(94, 234, 212, 0.18);
-  background: #07111f;
-}
-
-.character-portrait-frame::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, transparent 62%, var(--backgroundColor) 104%);
-}
-
-.character-portrait {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
-  display: block;
-}
-
 .landing-intro {
   position: absolute;
   z-index: 9;
@@ -365,10 +329,6 @@
     font-size: clamp(30px, 3vw, 48px);
   }
 
-  .character-portrait-frame {
-    width: min(47vh, 430px);
-    transform: translateY(4vh);
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -409,9 +369,6 @@
     font-size: 52px;
   }
 
-  .character-portrait-frame {
-    width: min(56vh, 520px);
-  }
 }
 
 @media screen and (max-width: 620px) {
