@@ -16,6 +16,7 @@ Current focus areas:
 - Multi-modal perception with Python, ROS2, camera data, and LiDAR data
 - LLM automation with LangGraph, OpenAI API, and FastAPI
 - Full-stack SaaS products using React, Next.js, PostgreSQL, Stripe, Docker, and cloud deployment
+- Campus IT leadership, service operations, and support for 5,000+ users
 
 ## Featured Work
 
@@ -23,6 +24,14 @@ Current focus areas:
 - **Humanizer** - AI text SaaS app that rewrites AI-generated text across multiple styles using the OpenAI API, FastAPI, React, PostgreSQL, Stripe, and usage-based rate limiting.
 - **LLM Workflow Automation** - Stateful LangGraph pipeline for classifying support tickets, generating GPT-powered responses, and managing multi-turn context through JSON memory graphs.
 - **Weather Now** - Production weather app with radar overlays, 7-day forecasts, AQI data, server-side API proxy, and CI/CD deployment on Vercel.
+
+## Experience Highlights
+
+- **AI Researcher, University of Minnesota CSE** - Machine learning experiments, dataset analysis, model evaluation, and research documentation.
+- **Undergraduate Research Assistant, Networking, Mobile & AI Research Lab** - Python and ROS2 material classification using synchronized camera and LiDAR data.
+- **AI Fellow, Handshake** - LLM fellowship focused on career services, talent platform workflows, and applied AI.
+- **Product Manufacturing Engineer Intern, Abbott Laboratories** - Data analysis, Lean/Six Sigma support, ECO/BOM workflows, and PTC Windchill PLM.
+- **IT Service Desk Team Lead, Normandale Community College** - Led support for 5,000+ users, resolved 70+ tickets weekly, supervised junior technicians, and maintained computer labs.
 
 ## Skills
 

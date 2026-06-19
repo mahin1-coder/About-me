@@ -88,6 +88,15 @@
   font-size: 16px;
 }
 
+.carousel-summary {
+  color: #d7d7d7;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.55;
+  margin: 8px 0 0;
+  max-width: 520px;
+}
+
 .carousel-tools {
   margin-top: 16px;
 }
@@ -231,6 +240,8 @@
   max-width: 100%;
   max-height: 400px;
   border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
 }
 
 /* ── Responsive ── */
@@ -315,6 +326,10 @@
 
   .carousel-details h4 {
     font-size: 20px;
+  }
+
+  .carousel-summary {
+    font-size: 14px;
   }
 
   .carousel-content {

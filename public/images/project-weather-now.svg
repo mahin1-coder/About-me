@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Weather Now application preview">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+    <radialGradient id="radar" cx=".48" cy=".5" r=".55">
+      <stop offset="0" stop-color="#5eead4" stop-opacity=".9"/>
+      <stop offset=".42" stop-color="#38bdf8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="600" rx="34" fill="url(#sky)"/>
+  <rect x="58" y="54" width="844" height="492" rx="28" fill="#08111f" stroke="#29425a"/>
+  <text x="92" y="112" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Weather Now</text>
+  <text x="92" y="146" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Forecasts, radar overlays, AQI, and live conditions</text>
+  <rect x="92" y="190" width="292" height="260" rx="22" fill="#0f1b2d" stroke="#29425a"/>
+  <circle cx="186" cy="284" r="48" fill="#facc15"/>
+  <path d="M214 302c22-26 68-10 68 24 0 26-20 44-48 44H156c-24 0-42-16-42-38 0-24 22-42 48-36 10-24 36-36 58-24" fill="#e0f2fe"/>
+  <text x="122" y="414" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">72F</text>
+  <text x="238" y="414" fill="#9fb3c8" font-family="Inter, Arial, sans-serif" font-size="18">Minneapolis</text>
+  <rect x="426" y="190" width="402" height="260" rx="22" fill="#0f1b2d" stroke="#29425a"/>
+  <rect x="456" y="220" width="342" height="200" rx="18" fill="#102238"/>
+  <circle cx="626" cy="320" r="138" fill="url(#radar)"/>
+  <path d="M480 384c64-32 74-118 150-96 72 20 80-48 150-38" stroke="#5eead4" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M486 260c70 36 106 10 154-16 50-28 92 10 136 18" stroke="#38bdf8" stroke-width="6" fill="none" stroke-linecap="round" opacity=".8"/>
+  <g fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">
+    <text x="474" y="464">Radar</text>
+    <text x="574" y="464">7-Day</text>
+    <text x="690" y="464">AQI</text>
+  </g>
+  <g fill="#5eead4">
+    <rect x="456" y="454" width="14" height="14" rx="7"/>
+    <rect x="556" y="454" width="14" height="14" rx="7"/>
+    <rect x="672" y="454" width="14" height="14" rx="7"/>
+  </g>
+</svg>
