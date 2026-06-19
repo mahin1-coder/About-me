@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "ML Model Deployment Dashboard",
-    category: "AI / ML Systems",
-    tools: "Python, Scikit-Learn, FastAPI, React, Power BI",
+    title: "NeuroForge AI",
+    category: "ML SaaS Dashboard",
+    tools: "Python, FastAPI, PostgreSQL, React, Scikit-Learn, XGBoost, Docker",
     image: `${import.meta.env.BASE_URL}images/placeholder.webp`,
     link: "",
   },
   {
-    title: "LLM-Powered Workflow Automation",
-    category: "AI Automation",
-    tools: "Python, LangGraph, OpenAI API, FastAPI",
+    title: "Humanizer",
+    category: "AI Text SaaS",
+    tools: "Python, FastAPI, React, OpenAI API, PostgreSQL, Stripe",
     image: `${import.meta.env.BASE_URL}images/placeholder.webp`,
     link: "",
   },
   {
-    title: "Weather App",
-    category: "Web Application",
-    tools: "Next.js, TypeScript, React, Open-Meteo, Leaflet",
+    title: "LLM Workflow Automation",
+    category: "Agentic AI Pipeline",
+    tools: "Python, LangGraph, OpenAI API, FastAPI, JSON memory graphs",
+    image: `${import.meta.env.BASE_URL}images/placeholder.webp`,
+    link: "",
+  },
+  {
+    title: "Weather Now",
+    category: "Production Weather App",
+    tools: "TypeScript, Next.js, React, Open-Meteo, Leaflet, Vercel",
     image: `${import.meta.env.BASE_URL}images/placeholder.webp`,
     link: "https://weather-app-mahin.vercel.app",
-  },
-  {
-    title: "Valentine's Interactive Website",
-    category: "Creative UI",
-    tools: "HTML, CSS, JavaScript",
-    image: `${import.meta.env.BASE_URL}images/placeholder.webp`,
-    link: "https://mahin1-coder.github.io/Valentines/",
   },
 ];
 

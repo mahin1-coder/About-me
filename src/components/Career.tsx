@@ -15,42 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>AI Researcher</h4>
+                <h5>University of Minnesota CSE</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              Conducting AI-driven research on machine learning algorithms,
+              data analysis, experimental design, model evaluation, and
+              technical documentation with faculty researchers and graduate
+              peers.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Undergraduate Research Assistant</h4>
+                <h5>Networking, Mobile & AI Research Lab</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              Developing material classification models in Python and ROS2
+              using synchronized camera and LiDAR data for autonomous systems
+              perception and cross-scene generalization.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Product Manufacturing Engineer Intern</h4>
                 <h5>Abbott Laboratories · Plymouth, MN</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Applied Lean principles, conducted root cause analyses, and
-              collaborated with production and quality teams to improve
-              operational efficiency in a GMP-regulated environment.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>IT Service Desk Assistant (Team Lead)</h4>
-                <h5>Normandale Community College</h5>
-              </div>
-              <h3>2023–2025</h3>
-            </div>
-            <p>
-              Led campus IT support operations, resolved 70+ technical tickets
-              weekly. Maintained campus labs & infrastructure and improved
-              escalation processes.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>CS @ University of Minnesota</h4>
-                <h5>Twin Cities · CSE</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Building production-ready ML deployments, LLM-powered automation
-              workflows, and cloud-native services with AWS.
+              Used Excel, Minitab, Lean/Six Sigma analysis, ECOs, BOMs, and PTC
+              Windchill PLM to identify process bottlenecks and support
+              manufacturing improvement initiatives.
             </p>
           </div>
         </div>

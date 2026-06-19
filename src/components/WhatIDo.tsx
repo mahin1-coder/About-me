@@ -52,18 +52,18 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>AI & ML</h3>
-              <h4>Intelligent Systems</h4>
-              <p>Building production-ready ML deployments and LLM-powered automation workflows. From model training to real-time inference pipelines.</p>
+              <h4>Research to Production</h4>
+              <p>Building ML models, multi-modal perception workflows, and LLM-powered automation. From dataset experiments to real-time inference APIs.</p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
                 <div className="what-tags">LangChain</div>
                 <div className="what-tags">LangGraph</div>
                 <div className="what-tags">OpenAI API</div>
+                <div className="what-tags">ROS2</div>
+                <div className="what-tags">XGBoost</div>
                 <div className="what-tags">TensorFlow</div>
                 <div className="what-tags">PyTorch</div>
-                <div className="what-tags">Scikit-Learn</div>
-                <div className="what-tags">Hugging Face</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -77,17 +77,17 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>FULL STACK</h3>
-              <h4>Cloud & DevOps</h4>
-              <p>Designing scalable APIs, cloud-native services with AWS, and end-to-end web applications. From databases to deployment.</p>
+              <h4>SaaS, Cloud & Data</h4>
+              <p>Designing scalable APIs, dashboards, subscriptions, databases, and CI/CD-backed deployments. From product idea to shipped web app.</p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">React</div>
+                <div className="what-tags">Next.js</div>
                 <div className="what-tags">FastAPI</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">AWS</div>
                 <div className="what-tags">Docker</div>
                 <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
                 <div className="what-tags">TypeScript</div>
               </div>
               <div className="what-arrow"></div>

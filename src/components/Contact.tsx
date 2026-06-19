@@ -10,8 +10,8 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:Mahin3.ahsan@gmail.com" data-cursor="disable">
-                Mahin3.ahsan@gmail.com
+              <a href="mailto:mahin2.ahsan@gmail.com" data-cursor="disable">
+                mahin2.ahsan@gmail.com
               </a>
             </p>
             <h4>Education</h4>
@@ -26,6 +26,14 @@ const Contact = () => {
               className="contact-social"
             >
               Github <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mahin-a-4292b41b1/"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              LinkedIn <MdArrowOutward />
             </a>
             <h4>Location</h4>
             <p>Minneapolis, MN</p>
