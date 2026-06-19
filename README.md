@@ -1,6 +1,8 @@
 # Mahin Ahsan - AI/ML + Full-Stack Portfolio
 
-Simple link: [mahin1-coder.github.io/About-me](https://mahin1-coder.github.io/About-me/)
+## View My Portfolio
+
+[Click here to open the live portfolio](https://mahin1-coder.github.io/About-me/)
 
 This is my personal portfolio for job opportunities in software engineering, AI/ML engineering, data science, full-stack development, and research-focused technical roles.
 
@@ -39,14 +41,14 @@ Current focus areas:
 - GitHub: [github.com/mahin1-coder](https://github.com/mahin1-coder)
 - Resume: [Mahin_Ahsan_Resume.pdf](https://mahin1-coder.github.io/About-me/Mahin_Ahsan_Resume.pdf)
 
-## Run Locally
+## Run Locally For Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:5173/About-me/`.
+The local URL is only for editing and testing. The public portfolio is here: [https://mahin1-coder.github.io/About-me/](https://mahin1-coder.github.io/About-me/)
 
 ## Deployment
 
